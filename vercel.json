@@ -10,5 +10,13 @@
       "source": "/(.*)",
       "destination": "api/server.js"
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    },
+    "github": {
+      "autoJobCancellation": false
+    }
+  }
 }
